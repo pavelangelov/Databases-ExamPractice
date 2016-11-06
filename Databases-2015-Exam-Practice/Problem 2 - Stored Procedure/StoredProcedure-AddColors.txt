@@ -1,0 +1,10 @@
+CREATE PROC [dbo].[usp_AddColors]
+AS
+BEGIN
+	IF((SELECT COUNT(*) FROM Colors) = 0)
+		BEGIN
+			INSERT INTO Colors
+			VALUES ('White'), ('Black'), ('Red'), ('Mixed')
+		END
+END
+GO
