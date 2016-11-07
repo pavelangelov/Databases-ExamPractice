@@ -75,6 +75,7 @@
     <Compile Include="Importer.cs" />
     <Compile Include="Searcher\ISocialNetworkService.cs" />
     <Compile Include="Searcher\Searcher.cs" />
+    <Compile Include="Searcher\SocialNetworkService.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
